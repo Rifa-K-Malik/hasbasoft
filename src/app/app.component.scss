@@ -1,0 +1,77 @@
+.container{
+    width: 50%;
+    border: 2px solid black;
+    padding: 5%;
+}
+.container p{
+    color: grey;
+    margin-bottom: 10%;
+}
+mat-form-field{
+    padding-left: 10%;
+}
+.dob{
+    display: inline-block;
+    width: fit-content;
+    padding-left: 10%;
+}
+.dob .dobselect{
+    height: 40px;
+    max-width: 60px;
+    padding-left: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.dob .dobselect2{
+    height: 40px;
+    width: 75px;
+    padding-left: 7px;
+}
+.dob .dobselect3{
+    height: 40px;
+    width: 75px;
+    padding-left: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.passport{
+     display: inline-block;
+    width: fit-content;
+    padding-left: 10%;
+}
+.passport .ppselect{
+    height: 40px;
+    max-width: 60px;
+    padding-left: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.passport .ppselect2{
+    height: 40px;
+    width: 75px;
+    padding-left: 7px;
+}
+.passport .ppselect3{
+    height: 40px;
+    width: 75px;
+    padding-left: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.container #btn{
+    text-align: center;
+}
+#btn button{
+    margin: 10px;
+    width: 30%;
+    font-weight: bolder;
+    
+}
+#btn .button1{
+    background-color: rgb(79, 243, 243);
+    color: white;
+}
+#btn .button2:hover{
+    background-color: rgb(79, 243, 243);
+    color: white;
+}
