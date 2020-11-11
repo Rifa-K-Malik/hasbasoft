@@ -18,13 +18,11 @@
     </div>
   </div>
 
-
   <div class="row">
     <div class="col">
-      <div class="dob">
-        <form appearance="outline">
-          <label required>Date Of Birth*</label><br>
-          <select class="dobselect" required>
+        <mat-form-field appearance="outline">
+          <mat-label>Date Of Birth</mat-label>
+          <select matNativeControl required>
             <option value="DD">DD</option>
             <option value="01">01</option>
             <option value="02">02</option>
@@ -37,7 +35,7 @@
             <option value="09">09</option>
             <option value="10">10</option>
           </select>
-          <select class="dobselect2" required>
+          <select>
             <option value="MM">MM</option>
             <option value="JAN">JAN</option>
             <option value="FEB">FEB</option>
@@ -52,7 +50,7 @@
             <option value="NOV">NOV</option>
             <option value="DEC">DEC</option>
           </select>
-          <select class="dobselect3" required>
+          <select>
             <option value="YYYY">YYYY</option>
             <option value="1990">1990</option>
             <option value="1991">1991</option>
@@ -62,10 +60,8 @@
             <option value="1995">1995</option>
             <option value="1996">1996</option>
             <option value="1997">1997</option>
-
           </select>
-        </form>
-      </div>
+        </mat-form-field>
     </div>
 
     <div class="col">
