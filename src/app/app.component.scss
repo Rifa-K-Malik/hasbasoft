@@ -1,20 +1,19 @@
 .container{
-    width: 50%;
+    width: 40%;
     border: 2px solid black;
-    padding: 5%;
+    padding: 4% 3%;
+    margin-top: 1%;
 }
 .container p{
     color: grey;
-    margin-bottom: 10%;
-}
-mat-form-field{
-    padding-left: 10%;
+    margin-bottom: 7%;
 }
 .dob{
     display: inline-block;
     width: fit-content;
-    padding-left: 10%;
+    margin-bottom: 1.4rem;
 }
+
 .dob .dobselect{
     height: 40px;
     max-width: 60px;
@@ -37,7 +36,7 @@ mat-form-field{
 .passport{
      display: inline-block;
     width: fit-content;
-    padding-left: 10%;
+    margin-bottom: 1.4rem;
 }
 .passport .ppselect{
     height: 40px;
@@ -65,7 +64,7 @@ mat-form-field{
     margin: 10px;
     width: 30%;
     font-weight: bolder;
-    
+    border: 2px solid black;
 }
 #btn .button1{
     background-color: rgb(79, 243, 243);
