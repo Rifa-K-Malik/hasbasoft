@@ -1,36 +1,16 @@
-.container{
-    width: 40%;
-    border: 2px solid black;
-    padding: 3% 3%;
-    margin-top: 1%;
-}
-.container p{
-    color: grey;
-    margin-bottom: 7%;
-}
-
-#genderid{
-    margin-top: 20px;
-}
-
-#passportid {
-    margin-top: 20px;
-}
-
-.container #btn{
-    text-align: center;
-}
-#btn button{
-    margin: 10px;
-    width: 30%;
-    font-weight: bolder;
-    border: 2px solid black;
-}
-#btn .button1{
-    background-color: rgb(79, 243, 243);
-    color: white;
-}
-#btn .button2:hover{
-    background-color: rgb(79, 243, 243);
-    color: white;
+.AppComponent {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    &__Middle {
+        min-height: 50vh;
+        width: 50%;
+        display: grid;
+        place-items: center;
+        &__Button {
+            outline: none;
+            background-color:#35c48c;
+            color: white;
+        }
+    }
 }

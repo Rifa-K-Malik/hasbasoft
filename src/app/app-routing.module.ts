@@ -1,3 +1,4 @@
+import { AddTravellerComponent } from './components/add-traveller/add-traveller.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 

@@ -1,0 +1,135 @@
+<div class="container">
+    <h1>Add New Traveller</h1>
+    <p>Don't forget - All details provided must be as officia' government ID</p>
+  
+    <div class="row">
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>First Name</mat-label>
+          <input matInput required>
+        </mat-form-field>
+      </div>
+  
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Last Name</mat-label>
+          <input matInput required>
+        </mat-form-field>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col">
+        <div id="datesel">
+            <label id="topdoblabel">Date of Birth*</label><br>   
+                  <mat-form-field class = "ff1"appearance="outline">
+                    <mat-label id = "label">DD</mat-label>
+                    <mat-select>
+                      <mat-option *ngFor="let dd of date" [value]="dd.value">
+                        {{dd.viewValue}}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                  <mat-form-field class = "ff2" appearance="outline">
+                    <mat-label id = "label">MM</mat-label>
+                    <mat-select>
+                      <mat-option *ngFor="let mm of month" [value]="mm.value">
+                        {{mm.viewValue}}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                  <mat-form-field class = "ff3" appearance="outline">
+                    <mat-label id = "label">YYYY</mat-label>
+                    <mat-select>
+                      <mat-option *ngFor="let yyyy of year" [value]="yyyy.value">
+                        {{yyyy.viewValue}}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </div>
+            
+      </div>
+  
+      <div class="col" id = "genderid">
+        <mat-form-field appearance="outline">
+          <mat-label>Gender</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let gen of gender" [value]="gen.value">
+              {{gen.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Nationality</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let nation of nationality" [value]="nation.value">
+              {{nation.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+  
+      <div class="col">
+        <mat-form-field appearance="outline">
+          <mat-label>Passport No</mat-label>
+          <input matInput required>
+        </mat-form-field>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col">
+        <div id = "datepp">
+            <label id = "toplabel">Passport Expiry Date*</label><br>
+            <mat-form-field class = "pp1"appearance="outline">
+                <mat-label id = "label">DD</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let dd of Pdate" [value]="dd.value">
+                    {{dd.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field class = "pp2" appearance="outline">
+                <mat-label id = "label">MM</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let mm of Pmonth" [value]="mm.value">
+                    {{mm.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field class = "pp3" appearance="outline">
+                <mat-label id = "label">YYYY</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let yyyy of Pyear" [value]="yyyy.value">
+                    {{yyyy.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+        </div>
+        
+      </div>
+  
+      <div class="col" id = "passportid">
+        <mat-form-field appearance="outline">
+          <mat-label>Passport Issuance Country</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let pass of passport" [value]="pass.value">
+              {{pass.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+      </div>
+    </div>
+    <div id="btn">
+      
+      <button class="button1" mat-stroked-button>SAVE</button>
+      <button class="button2" mat-stroked-button>RESET</button>
+    </div>
+  </div>
+  
