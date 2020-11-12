@@ -16,11 +16,11 @@ interface Year {
 }
 
 @Component({
-  selector: 'app-datedd',
-  templateUrl: './datedd.component.html',
-  styleUrls: ['./datedd.component.scss']
+  selector: 'app-datepp',
+  templateUrl: './datepp.component.html',
+  styleUrls: ['./datepp.component.scss']
 })
-export class DateddComponent implements OnInit {
+export class DateppComponent implements OnInit {
 
   constructor() { }
 

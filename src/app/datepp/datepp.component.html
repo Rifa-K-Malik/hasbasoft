@@ -1,6 +1,6 @@
-<div id="datesel">
-<label id="topdoblabel">Date of Birth*</label><br>   
-      <mat-form-field class = "ff1"appearance="outline">
+<div id = "datepp">
+    <label id = "toplabel">Passport Expiry Date*</label><br>
+    <mat-form-field class = "pp1"appearance="outline">
         <mat-label id = "label">DD</mat-label>
         <mat-select>
           <mat-option *ngFor="let dd of date" [value]="dd.value">
@@ -8,7 +8,7 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-form-field class = "ff2" appearance="outline">
+      <mat-form-field class = "pp2" appearance="outline">
         <mat-label id = "label">MM</mat-label>
         <mat-select>
           <mat-option *ngFor="let mm of month" [value]="mm.value">
@@ -16,7 +16,7 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-form-field class = "ff3" appearance="outline">
+      <mat-form-field class = "pp3" appearance="outline">
         <mat-label id = "label">YYYY</mat-label>
         <mat-select>
           <mat-option *ngFor="let yyyy of year" [value]="yyyy.value">

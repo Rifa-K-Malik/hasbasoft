@@ -1,69 +1,22 @@
 .container{
     width: 40%;
     border: 2px solid black;
-    padding: 4% 3%;
+    padding: 3% 3%;
     margin-top: 1%;
 }
 .container p{
     color: grey;
     margin-bottom: 7%;
 }
-// .dob{
-//     display: inline-block;
-//     width: fit-content;
-//     margin-bottom: 1.4rem;
-// }
 
-// .dob .dobselect{
-//     height: 40px;
-//     max-width: 60px;
-//     padding-left: 7px;
-//     border-top-left-radius: 5px;
-//     border-bottom-left-radius: 5px;
-// }
-// .dob .dobselect2{
-//     height: 40px;
-//     width: 75px;
-//     padding-left: 7px;
-// }
-// .dob .dobselect3{
-//     height: 40px;
-//     width: 75px;
-//     padding-left: 7px;
-//     border-top-right-radius: 5px;
-//     border-bottom-right-radius: 5px;
-// }
-.passport{
-     display: inline-block;
-    width: fit-content;
-    margin-bottom: 1.4rem;
+#genderid{
+    margin-top: 20px;
 }
-.passport label{
-    margin-bottom: 0%;
-    color: rgb(143, 140, 140);
+
+#passportid {
+    margin-top: 20px;
 }
-.passport .ppselect{
-    height: 35px;
-    max-width: 60px;
-    padding-left: 7px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-color: rgb(223, 219, 219);
-}
-.passport .ppselect2{
-    height: 35px;
-    width: 75px;
-    padding-left: 7px;
-    border-color: rgb(223, 219, 219);
-}
-.passport .ppselect3{
-    height: 35px;
-    width: 75px;
-    padding-left: 7px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-color: rgb(223, 219, 219);
-}
+
 .container #btn{
     text-align: center;
 }
