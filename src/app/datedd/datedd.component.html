@@ -1,0 +1,22 @@
+<div id="datesel">
+
+      <mat-form-field appearance="outline">
+        <mat-label>DOB</mat-label>
+        <mat-select class="dsel">
+          <mat-option *ngFor="let dd of date" [value]="dd.value">
+            {{dd.viewValue}}
+          </mat-option>
+        </mat-select>
+        <mat-select class="msel">
+          <mat-option *ngFor="let mm of month" [value]="mm.value">
+            {{mm.viewValue}}
+          </mat-option>
+        </mat-select>
+        <mat-select class="ysel">
+          <mat-option *ngFor="let yyyy of year" [value]="yyyy.value">
+            {{yyyy.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+</div>
