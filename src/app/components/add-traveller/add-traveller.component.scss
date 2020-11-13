@@ -1,9 +1,14 @@
 .container{
-    width: 40%;
-    border: 2px solid black;
-    padding: 3% 3%;
-    margin-top: 1%;
+    width: fit-content;
+    border: 2px solid rgb(180, 179, 179);
+    padding: 3% 5%;
+    margin: 1%;
+    border-radius: 1%;
 }
+
+ .container .mff-width {
+     width: 100%;
+ }
 .container p{
     color: grey;
     margin-bottom: 7%;
@@ -37,13 +42,13 @@
 
 
 #datesel .ff1 {
-    width: 28%;
+    width: 25%;
 }
 #datesel .ff2 {
-    width: 30%;
+    width: 40%;
 }
 #datesel .ff3 {
-    width: 36%;
+    width: 35%;
 }
 
 #topdoblabel {
@@ -54,13 +59,13 @@
 
 
 #datepp .pp1 {
-    width: 28%;
+    width: 25%;
 }
 #datepp .pp2 {
-    width: 30%;
+    width: 40%;
 }
 #datepp .pp3 {
-    width: 36%;
+    width: 35%;
 }
 #toplabel {
     margin-bottom: 0%;

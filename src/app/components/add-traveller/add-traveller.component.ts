@@ -91,18 +91,18 @@ export class AddTravellerComponent implements OnInit {
   ];
 
   month: Month[] = [
-    {value: 'Jan-0', viewValue: 'Jan'},
-    {value: 'Feb-1', viewValue: 'Feb'},
-    {value: 'Mar-2', viewValue: 'Mar'},
-    {value: 'Apr-3', viewValue: 'Apr'},
+    {value: 'January-0', viewValue: 'January'},
+    {value: 'February-1', viewValue: 'February'},
+    {value: 'March-2', viewValue: 'March'},
+    {value: 'April-3', viewValue: 'April'},
     {value: 'May-4', viewValue: 'May'},
-    {value: 'Jun-5', viewValue: 'Jun'},
-    {value: 'Jul-6', viewValue: 'Jul'},
-    {value: 'Aug-7', viewValue: 'Aug'},
-    {value: 'Sep-8', viewValue: 'Sep'},
-    {value: 'Oct-9', viewValue: 'Oct'},
-    {value: 'Nov-10', viewValue: 'Nov'},
-    {value: 'Dec-11', viewValue: 'Dec'}
+    {value: 'June-5', viewValue: 'June'},
+    {value: 'July-6', viewValue: 'July'},
+    {value: 'August-7', viewValue: 'August'},
+    {value: 'September-8', viewValue: 'September'},
+    {value: 'October-9', viewValue: 'October'},
+    {value: 'November-10', viewValue: 'November'},
+    {value: 'December-11', viewValue: 'December'}
   ];
 
   year: Year[] = [
@@ -132,18 +132,18 @@ export class AddTravellerComponent implements OnInit {
   ];
 
   Pmonth: Month[] = [
-    {value: 'Jan-0', viewValue: 'Jan'},
-    {value: 'Feb-1', viewValue: 'Feb'},
-    {value: 'Mar-2', viewValue: 'Mar'},
-    {value: 'Apr-3', viewValue: 'Apr'},
+    {value: 'January-0', viewValue: 'January'},
+    {value: 'February-1', viewValue: 'February'},
+    {value: 'March-2', viewValue: 'March'},
+    {value: 'April-3', viewValue: 'April'},
     {value: 'May-4', viewValue: 'May'},
-    {value: 'Jun-5', viewValue: 'Jun'},
-    {value: 'Jul-6', viewValue: 'Jul'},
-    {value: 'Aug-7', viewValue: 'Aug'},
-    {value: 'Sep-8', viewValue: 'Sep'},
-    {value: 'Oct-9', viewValue: 'Oct'},
-    {value: 'Nov-10', viewValue: 'Nov'},
-    {value: 'Dec-11', viewValue: 'Dec'}
+    {value: 'June-5', viewValue: 'June'},
+    {value: 'July-6', viewValue: 'July'},
+    {value: 'August-7', viewValue: 'August'},
+    {value: 'September-8', viewValue: 'September'},
+    {value: 'October-9', viewValue: 'October'},
+    {value: 'November-10', viewValue: 'November'},
+    {value: 'December-11', viewValue: 'December'}
   ];
 
   Pyear: Year[] = [
