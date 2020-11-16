@@ -1,4 +1,4 @@
-<div class="AppComponent">
+<!-- <div class="AppComponent">
     <div class="AppComponent__Middle card">
         <div class="AppComponent__Middle">
             <button mat-stroked-button (click)="OpenDialog()" class="AppComponent__Middle__Button">
@@ -6,4 +6,12 @@
             </button>
         </div>
     </div>
+</div> -->
+
+<div class="d-flex justify-content-between">
+    <div>
+        <button [routerLink]="[ '/addTravellers' ]" mat-button>ADD TRAVELLERS</button>
+    </div>
+    <div><button [routerLink]="[ '/' ]" mat-button>FLIGHTS</button></div>
 </div>
+<router-outlet></router-outlet>

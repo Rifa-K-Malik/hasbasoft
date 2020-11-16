@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { AddTravellerComponent } from './components/add-traveller/add-traveller.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FlightsComponent } from './components/flights/flights.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddTravellerComponent
+    AddTravellerComponent,
+    FlightsComponent
   ],
   imports: [
     BrowserModule,

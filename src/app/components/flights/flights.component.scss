@@ -1,0 +1,58 @@
+.card{
+    margin:2%;  
+}
+
+.container{
+   text-align: center;
+}
+.container .row{
+    width: 90%;
+    margin: 0% 5%;
+}
+.container .col{
+    margin: 0%;
+    padding: 1%;
+}
+.container .col-8{
+    margin: 0%;
+    padding: 1%;
+}
+.hp h3{
+    margin-bottom: 0%;
+    font-weight: bolder;
+}
+.hp h2{
+    margin-bottom: 0%;
+    font-weight: bolder;
+}
+.alignleft{
+    display: flex;
+    align-items: center;
+    padding-left: 0%;
+}
+.flightsroute{
+    margin-right: 1%;
+}
+.flightsroute img{
+    margin-top: 2%;
+    width: 100%;
+}
+#mid-d{
+    border: 2px solid grey;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+#mid-d p{
+   margin: 1%;
+   color: grey;
+}
+.rdate{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.fcolor{
+    color: rgb(167, 165, 165);
+}
