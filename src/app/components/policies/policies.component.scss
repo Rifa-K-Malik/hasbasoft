@@ -1,0 +1,71 @@
+.policies{
+    color: rgb(83, 80, 80);
+    text-align: justify;
+    margin: 2%;
+}
+.cblack{
+    color: black;
+}
+.cred{
+    color: red;
+}
+.cgreen{
+    color: green;
+}
+.fbold{
+    font-weight: bold;
+}
+.mrgnbt{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.mrgnb{
+    margin-bottom: 3%;
+}
+.fsize11{
+    font-size: 11px;
+}
+.fsize12{
+    font-size: 12px;
+}
+.fsize{
+    font-size: 16px;
+}
+.fsize20{
+    font-size: 20px;
+}
+.lstylec{
+    list-style-type: circle;
+}
+.policies ul li {
+    margin-bottom: 3%;
+}
+.hw{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+.pmargn{
+    margin: 0%;
+}
+.bgdark{
+    background-color: rgb(235, 235, 235);
+}
+.bglight{
+    background-color: rgb(245, 245, 245);
+}
+.policies button{
+    font-weight: bolder;
+    margin: 10px;
+    border-radius: 10px;
+}
+.pright{
+    padding-right: 10px;
+}
+
+

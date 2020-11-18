@@ -8,13 +8,15 @@ import { MaterialModule } from './material/material.module';
 import { AddTravellerComponent } from './components/add-traveller/add-traveller.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FlightsComponent } from './components/flights/flights.component';
+import { PoliciesComponent } from './components/policies/policies.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AddTravellerComponent,
-    FlightsComponent
+    FlightsComponent,
+    PoliciesComponent
   ],
   imports: [
     BrowserModule,

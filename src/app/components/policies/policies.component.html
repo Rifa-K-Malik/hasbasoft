@@ -1,0 +1,223 @@
+<div class="policies">
+    <div class="top">
+        <p class="cblack fbold fsize">CANCELLATION & DATE CHANGE</p>
+        <p class="cblack">How much will it cost to cancel or change the start date after making a booking?</p>
+        <div class="mrgnb">
+            <button mat-stroked-button (click)="hide()">CANCELLATION</button>
+            <button mat-stroked-button (click)="show()">DATE CHANGE</button>
+        </div>
+        <div class="mrgnb">
+            <div class="d-flex">
+                <div class="hw fsize bgdark">
+                    <p class="cgreen pmargn">Before</p>
+                    <p class="cgreen fbold pmargn">27th Nov</p>
+                </div>
+                <div class="hw fsize bglight">
+                    <p class="cred pmargn">After</p>
+                    <p class="cred fbold pmargn">27th Nov</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="hw bgdark">
+                    <span class="fbold cblack fsize20">&#8377;45.500</span>
+                    <p class="pmargn fsize11">Per Person</p>
+                    <ng-template #elsehide>
+                        <p class="pmargn fsize12">Cancellation Charge</p>
+                    </ng-template>
+                    <p class="pmargn fsize12" *ngIf="isValid; else elsehide">Date Change Charge. Fare Difference will be
+                        extra.</p>
+                </div>
+                <div class="hw bglight">
+                    <p class="cblack fbold pmargn">Non Refundable</p>
+                    <p class="pmargn fsize12">Date Change is not allowed</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div>
+                <span class="material-icons pright">
+                    description
+                </span>
+            </div>
+            <div>
+                <p class="mrgnb">These are non-refundable amounts as per the current components attached. In the case of
+                    component
+                    change/modifications, the policy will change accordingly.</p>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div>
+                <span class="material-icons pright">
+                    description
+                </span>
+            </div>
+            <div>
+                <p class="mrgnb">Please check the exact cancellation and date change policy on the review page before
+                    proceeding further.</p>
+            </div>
+        </div>
+        <div *ngIf="isValid">
+            <div class="d-flex">
+                <div>
+                    <span class="material-icons pright">
+                        insert_invitation
+                    </span>
+                </div>
+                <div>
+                    <p class="mrgnb">Date Change fees don't include any fare change in the components on the new date.
+                        Fare
+                        difference as applicable will be charged separately.</p>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <span class="material-icons pright">
+                        insert_invitation
+                    </span>
+                </div>
+                <div>
+                    <p class="mrgnb">Date Change will depend on the availability of the components on the new requested
+                        date.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div>
+                <span class="material-icons pright">
+                    event_note
+                </span>
+            </div>
+            <div>
+                <p class="mrgnb">Please note, TCS once collected cannot be refunded in case of any cancellation /
+                    modification. You can claim
+                    the TCS amount as adjustment against Income Tax payable at the time of filing the return of income.
+                </p>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div>
+                <span class="material-icons pright">
+                    event_note
+                </span>
+            </div>
+            <div>
+                <p class="mrgnb">Cancellation charges shown is exclusive of all taxes and taxes will be added as per
+                    applicable.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mid">
+        <p class="fbold fsize mrgnbt">Important Information</p>
+        <ul class="lstylec">
+            <li>Visa Disclaimer : Please note that the final decision regarding a visa application rests solely with
+                the
+                respective Embassy/Consulate.</li>
+            <li>To travel to any international destination, your passport must have a minimum validity of 06 months
+                from
+                your planned date of return.</li>
+            <li>Providing wrong passenger age may incur penalty at a later stage</li>
+            <li>Do check your flight status/schedule 24 hours before the scheduled flight departure, since airline
+                schedules are subject to change without notice.</li>
+            <li>While entering passenger names during the booking process, do ensure that they exactly match the
+                names
+                on the travel documents (e.g. passport) that you will be carrying for the trip</li>
+            <li>MakeMyTrip officials or representatives will NEVER ask you for your personal information i.e. your
+                credit/debit card details, passwords, PIN, CVV, OTP etc. Please do not share these details with
+                anyone
+                over phone, SMS, Whatsapp, email or any other source</li>
+            <li>Tickets and briefing sheet will be delivered 2 days prior to the departure date</li>
+        </ul>
+        <p class="fbold fsize mrgnbt">Exclusions</p>
+        <ul class="lstylec">
+            <li>Package doesn't include Gala dinner charges applicable on Christmas and New Year's Eve </li>
+        </ul>
+        <p class="fbold fsize">Terms and Conditions</p>
+        <p class=" fbold fsize">INSURANCE POLICY</p>
+        <p>Click here to know more:</p>
+        <a href="">https://promos.makemytrip.com/policy-wordings/overseas-policy-wordings.html</a>
+    </div>
+    <div class="bottom">
+        <p class="fbold fsize mrgnbt">GENERAL</p>
+        <ul class="lstylec">
+            <li>Please note that once your booking is confirmed, you will receive an e-mail as well as an SMS on
+                your
+                registered mobile number confirming your booking. However, if you would like to get in touch with us
+                please call us on 0124-4859749. We are open from 8:00 am – 8:00 pm, seven days a week</li>
+            <li>Please expect to receive your vouchers 72 hours before your departure date (subject to full payment
+                of
+                your package cost)</li>
+            <li>Please note that these packages are customizable, which means that you will be able to make changes
+                to
+                the itinerary/activity if you so desire. The final payment will be calculated as per the activities
+                reflecting on the website which will be outlined in the confirmatory e-mail sent to you</li>
+            <li>Personal expenses such as laundry, telephone calls, room service, alcoholic beverages, mini bar
+                etc.,
+                are not included</li>
+            <li>In case your package needs to be cancelled due to any natural calamity, weather conditions etc.
+                MakeMyTrip shall strive to give you the maximum possible refund subject to the agreement made with
+                our
+                trade partners/vendors</li>
+            <li>If payment is not made as per the schedule provided in the first booking confirmation e-mail,
+                MakeMyTrip
+                reserves the right to cancel the booking after attempting to get in touch with you. Refunds would be
+                as
+                per the package cancellation policy</li>
+        </ul>
+        <p class="fbold fsize mrgnbt">FLIGHTS</p>
+        <ul class="lstylec">
+            <li>The passenger names in the booking form should be exactly as per passports. MakeMyTrip will not bear
+                any
+                liability for the name change fee, if incorrect names and ages have been added at the time of
+                booking
+            </li>
+            <li>Please note that if your package includes a flight which is a low cost carrier (Air Asia, Scoot
+                Airlines, Air Arabia, Jetstar, Fly Dubai, Thai AirAsia, Air India Express, Tiger Airways) then
+                baggage
+                will not be included in the package. Baggage can be added as per your requirement at an additional
+                cost
+                depending on the airlines and destination. Our Travel Expert will attempt to get in touch with you
+                within 24-hours after the booking has been confirmed for baggage addition</li>
+            <li>Please ensure that baggage requirements are given to our Travel Expert latest by 5 days before the
+                date
+                of departure</li>
+        </ul>
+        <p class="fbold fsize mrgnbt">HOTEL</p>
+        <ul class="lstylec">
+            <li>Standard check-in time at the hotel is normally 2:00 pm and check-out is 11:00 am. An early
+                check-in, or
+                a late check-out is solely based on the discretion of the hotel</li>
+            <li>In case the selected hotel is unavailable for booking, an alternate arrangement will be offered to
+                the
+                customer in another hotel of a similar category</li>
+            <li>Certain hotels abroad may ask for a security deposit during check-in, which is refundable at
+                check-out
+                subject to the hotel’s policy</li>
+        </ul>
+        <p class="fbold fsize mrgnbt">SIGHTSEEING ACTIVITIES/TRANSFERS</p>
+        <ul class="lstylec">
+            <li>Please note that Day at Leisure essentially implies that no sightseeing activities have been
+                included
+                for that day.</li>
+            <li>Kindly be on time for your activities, tours and transfers. Most countries are quite strict about
+                following a schedule.</li>
+            <li>Visa Disclaimer : Please note that the final decision regarding a visa application rests solely with
+                the
+                respective Embassy/Consulate.</li>
+            <li>To travel to any international destination, your passport must have a minimum validity of 06 months
+                from
+                your planned date of return.</li>
+            <li>Providing wrong passenger age may incur penalty at a later stage.</li>
+            <li>Do check your flight status/schedule 24 hours before the scheduled flight departure, since airline
+                schedules are subject to change without notice.</li>
+            <li>While entering passenger names during the booking process, do ensure that they exactly match the
+                names
+                on the travel documents (e.g. passport) that you will be carrying for the trip.</li>
+            <li>MakeMyTrip officials or representatives will NEVER ask you for your personal information i.e. your
+                credit/debit card details, passwords, PIN, CVV, OTP etc. Please do not share these details with
+                anyone
+                over phone, SMS, Whatsapp, email or any other source.</li>
+            <li>Tickets and briefing sheet will be delivered 2 days prior to the departure date</li>
+        </ul>
+    </div>
+</div>
