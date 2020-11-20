@@ -1,7 +1,17 @@
+.container{
+    padding: 0%;
+    margin: 0%;
+}
+.container .row{
+    flex-wrap: nowrap;
+    margin-left: 0%;
+    margin-right: 0%;
+}
 .policies{
     color: rgb(83, 80, 80);
     text-align: justify;
     margin: 2%;
+   
 }
 .cblack{
     color: black;
@@ -12,6 +22,9 @@
 .cgreen{
     color: green;
 }
+.cblue{
+    color: rgb(54, 150, 240);
+}
 .fbold{
     font-weight: bold;
 }
@@ -21,6 +34,12 @@
 }
 .mrgnb{
     margin-bottom: 3%;
+}
+.hr{
+    margin: 0%;
+}
+.hrtop{
+    margin:5px 0 10px 0;
 }
 .fsize11{
     font-size: 11px;
@@ -68,4 +87,144 @@
     padding-right: 10px;
 }
 
+.right__container {
+    border: 2px solid rgb(179, 179, 179);
+   padding: 5px;
+    height: fit-content;
+   position: fixed;
+   width: 25%;
+   z-index: 5;
+   background-color: white;
+}
+.rc__top{
+    align-items: center;
+    background-color: rgb(224, 240, 255);
+    padding: 10px;
+    &__left{
+        color: rgb(90, 88, 88);
+        &__span{
+            font-weight: 900;
+            font-size: 24px;
+    }
+}
+    &__right{
+        background-color: rgb(253, 111, 60);
+        padding: 5px;
+        margin-left: 10px;
+        height: 30px;
+        width: fit-content;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+}
+}
+.rc__mid{
+    align-items: center;
+    background-color: rgb(228, 222, 222);
+    padding: 10px;
+    font-weight: bold;
+    margin: 5px 0;
+    &__left{
+        width: 70%;
+    }
+    &__right{
+        color: rgb(54, 150, 240);
+    }
+}
+.rc__bottom{
+    font-weight: bold;
+    color:rgb(54, 150, 240);
+    padding: 10px 0px;
+    align-items: center;
+    &__left{
+        width: 95%;
+    }
+}
 
+.rc__btn{
+    text-align: center;
+    &__bt{
+        width: 80%;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 3px;
+        font-size: large;
+        color: white;
+        background: linear-gradient(to right, #33ccff 0%, #0066ff 100%);
+        margin: 10px 0;
+    }
+}
+.savemore{
+    padding: 10px;
+    background-color: rgb(203, 247, 232);
+    margin: 10px 0;
+    color: rgb(90, 88, 88);
+    position: relative;
+    top: 290px;
+    z-index: 1;
+}
+.cng__add{
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgb(179, 179, 179);
+    height: fit-content;
+    color: rgb(90, 88, 88);
+    position: fixed;
+     width: 23%;
+    top: 430px;
+    z-index: 5;
+    background-color: white;
+}
+.deals{
+    background: linear-gradient(to right, #00ff99 0%, #0099ff 100%);
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    top: 390px;
+    z-index: 1;
+    &__left{
+        width: 10%;
+        font-size: 24px;
+        border-radius: 50%;
+        border: 3px solid black;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+        background-color: yellow;
+        margin-right: 10px;
+    }
+    &__right{
+        color: white;
+    }
+}
+.bk__ur__holiday{
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    top: 390px;
+    z-index: 1;
+    background: linear-gradient(to right, #3333cc 0%, #6666ff 100%);
+    &__right{
+        color: white;
+    }
+}
+.pkage{
+    background-color: rgb(204, 255, 238);
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    top: 390px;
+    z-index: 1;
+    &__mid{
+        color: rgb(92, 84, 84);
+        width: 60%;
+        margin-left: 20px;
+    }
+    &__right{
+        color: rgb(54, 150, 240);;
+
+    }
+}
