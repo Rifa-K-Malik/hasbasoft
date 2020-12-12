@@ -9,6 +9,8 @@ import { AddTravellerComponent } from './components/add-traveller/add-traveller.
 import { ReactiveFormsModule } from '@angular/forms';
 import { FlightsComponent } from './components/flights/flights.component';
 import { PoliciesComponent } from './components/policies/policies.component';
+import { ApiComponent } from './components/api/api.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -16,14 +18,17 @@ import { PoliciesComponent } from './components/policies/policies.component';
     AppComponent,
     AddTravellerComponent,
     FlightsComponent,
-    PoliciesComponent
+    PoliciesComponent,
+    ApiComponent,
+   
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
